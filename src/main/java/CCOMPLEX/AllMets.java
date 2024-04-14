@@ -3,8 +3,6 @@ import javax.swing.JOptionPane;
 public class AllMets {
     public int real1,real2,ima1,ima2,rt,sim,m1,m2,z1,z2,valori,i;
     public byte a,fila,columna,columna2,fila2,x,j;
-    int matrizA[][]= new int [fila][columna];
-    int matrizB[][]= new int [fila][columna];
     public void solicitudDatos(){
         JOptionPane.showMessageDialog(null,"A continuacion ingresa los numeros"
                 + " con los cuales vamos a trabajar hoy");
